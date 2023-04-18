@@ -1,0 +1,40 @@
+page{
+  background: floralwhite;
+}
+ 
+ .top{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .img-class{
+   width: 200px;
+   height: 200px;
+   margin: 50px; 
+ } 
+
+ .item{
+   display: flex;
+   height: 100rpx;
+   align-items: center;
+   padding: 20rpx 20rpx;
+   margin-top: 40rpx;
+   background: white;
+ }
+
+ .btn{
+  background:goldenrod;
+  color: white;
+  
+  margin: 40rpx 100 rpx;
+  width: 500rpx;
+  height: 80rpx;
+ }
+
+ .register{
+   color: red;
+   text-align: center;
+   margin-top: 10px;
+ }

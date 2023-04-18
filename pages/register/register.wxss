@@ -1,0 +1,21 @@
+.root{
+  margin-left: 50rpx;
+  margin-top: 70rpx;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+
+.input{
+  border-bottom: 1px solid gray;
+  padding: 15rpx;
+}
+
+.btn{
+  margin: 50rpx;
+  background:khaki;
+}
+

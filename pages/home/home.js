@@ -2,6 +2,8 @@ import { fetchHome } from '../../services/home/home';
 import { fetchGoodsList } from '../../services/good/fetchGoods';
 import Toast from 'tdesign-miniprogram/toast/index';
 
+const app = getApp()
+
 Page({
   data: {
     imgSrcs: [],
@@ -28,6 +30,10 @@ Page({
 
   onShow() {
     this.getTabBar().init();
+    console.log(app.globalData.userInfo)
+    this.setData({
+      
+    })
   },
 
   onLoad() {

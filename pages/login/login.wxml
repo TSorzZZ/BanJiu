@@ -1,0 +1,19 @@
+
+<form bindsubmit="login">
+<view class="top"> 
+  <image class="img-class" src="/image/BanJiu.jpg"></image>
+  <view>斑鸠作业批改登陆</view>
+</view>
+
+<view class="item">
+  <view>手机:</view>
+  <input placeholder="请输入您的手机号" name="phone" />
+</view>
+<view class="item">
+  <view>密码:</view>
+  <input placeholder="请输入您的密码" name="password" />
+</view>
+
+<button class="btn" form-type="submit">登录</button>
+</form>
+<view class="register" bindtap="register">暂无账号？点击注册</view>

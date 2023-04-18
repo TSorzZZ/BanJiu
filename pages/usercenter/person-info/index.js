@@ -2,6 +2,8 @@ import { fetchPerson } from '../../../services/usercenter/fetchPerson';
 import { phoneEncryption } from '../../../utils/util';
 import Toast from 'tdesign-miniprogram/toast/index';
 
+const app = getApp()
+
 Page({
   data: {
     personInfo: {
@@ -38,6 +40,9 @@ Page({
       });
     });
   },
+
+  
+
   onClickCell({ currentTarget }) {
     const { dataset } = currentTarget;
     const { nickName } = this.data.personInfo;

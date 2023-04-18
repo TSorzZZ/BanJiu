@@ -28,7 +28,10 @@
     "pages/order/fill-tracking-no/index",
     "pages/order/delivery-detail/index",
     "pages/order/invoice/index",
-    "pages/usercenter/name-edit/index"
+    "pages/usercenter/name-edit/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/user-info/user-info"
   ],
   "tabBar": {
     "custom": true,
@@ -43,7 +46,7 @@
       },
       {
         "pagePath": "pages/goods/category/index",
-        "text": "分类"
+        "text": "作业上传"
       },
       {
         "pagePath": "pages/cart/index",
@@ -55,7 +58,9 @@
       }
     ]
   },
-  "requiredPrivateInfos": ["chooseAddress"],
+  "requiredPrivateInfos": [
+    "chooseAddress"
+  ],
   "lazyCodeLoading": "requiredComponents",
   "usingComponents": {},
   "window": {
